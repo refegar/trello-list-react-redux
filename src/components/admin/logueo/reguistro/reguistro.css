@@ -1,0 +1,68 @@
+form{
+
+    border: 1px solid grey;
+    background-color: #fff;
+   
+}
+form input:hover {
+
+    border: 1px solid grey;
+   
+}
+.containerReg{
+    margin: 2%;
+}
+.buttonEnviar{
+    width: 150px;
+    background-color: #415bee;
+    border-radius: 10px;
+    border: 2px outset #050bd2 ;
+    color: #fff;
+    font-weight: 400;
+}
+.buttonEnviar:hover{
+    width: 150px;
+    background-color: #9ca9f1;
+    border-radius: 10px;
+    border: 2px solid #415bee ;
+    color: #000000;
+    font-weight: 600;
+}
+.buttonReset{
+    width: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #415bee ;
+    color: #000000;
+    font-weight: 400; 
+}
+.buttonReset:hover{
+    background-color: #9ca9f1;
+    color: #fff;
+    font-weight: 600; 
+}
+.errorFormulario{
+    border-radius: 10px;
+    background-color:#7f1700 ;
+    color: #fff;
+    padding: 8px;
+    font-size: 17px;
+    
+}
+.ButtonSesion{
+    text-decoration: none;
+    padding: 5px 14px 5px 14px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #415bee ;
+    color: #000000;
+    font-weight: 400; 
+    font-size: 20px;
+}
+
+.ButtonSesion:hover{
+    background-color: #9ca9f1;
+    color: #000000;
+    
+}

@@ -1,0 +1,142 @@
+
+
+
+.buttonNavbar svg{
+fill:#fff ;
+}
+
+.form-control-search {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.buttonNavbar svg:hover{
+    fill:rgba(255, 255, 255, 0.2) ;
+    }
+
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+input [type="search"]{
+    background-color: #c6c6c6;
+}
+
+
+a:hover {
+    color: #000000;
+}
+.navbar{
+    background-color: hsl(30,16.7%,18.5%);
+    box-shadow: 0 0 10px rgb(190, 190, 190);
+    position: fixed;
+    z-index: 1;
+}
+.colorContador{
+    background-color: #ffa475;
+    color: #fff;
+}
+
+.navbar-nav{--bs-nav-link-padding-x:0;
+    --bs-nav-link-padding-y:0.2rem;--bs-nav-link-font-weight: ;
+    --bs-nav-link-color:#c6c6c6;
+    --bs-nav-link-hover-color:#fff;
+    --bs-nav-link-disabled-color:var(--bs-navbar-disabled-color);
+    display:flex;flex-direction:column;
+    padding-left:0;margin-bottom:0;
+    list-style:none;
+   
+}
+
+.navbar-brand-new {
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .navbar-brand-new:hover{
+    color:#fff;
+  }
+
+.navbar-user{
+    height: 35px;
+    border-radius: 80px 80px 0 80px;
+    background-color: #fff;;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #005dab;;
+    font-size: 16px;
+}
+.nav-link.disabled{
+    color:#005dab ;
+    pointer-events:none;
+    cursor:default;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+.nav-link-nav{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-toggler{padding:var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size:var(--bs-navbar-toggler-font-size);line-height:1;color:#fff;
+    background-color:transparent;border:var(--bs-border-width) solid #c6c6c6;
+    border-radius:var(--bs-navbar-toggler-border-radius);transition:var(--bs-navbar-toggler-transition);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.custom-center {
+    left: 50%;
+    transform: translateX(-40%);
+  }
+@media (prefers-reduced-motion:reduce){.navbar-toggler{transition:none};}
+/*///////////////////////////////////////////////// Seguimos nav bar /////////////////////////////////////////7*/
+
+.dropdown-item{display:block;width:100%;padding:var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+clear:both;font-weight:600;color:#ada9a9;text-align:inherit;text-decoration:none;white-space:nowrap;
+background-color:transparent;border:0;border-radius:var(--bs-dropdown-item-border-radius,0);
+}
+.dropdown-item:focus,
+.dropdown-item:hover{color:#005dab;background-color:var(--bs-dropdown-link-hover-bg)}
+.dropdown-item.active,.dropdown-item:active{color:var(--bs-dropdown-link-active-color);text-decoration:none;
+background-color:#0890ff}.dropdown-item.disabled,
+.dropdown-item:disabled{color:var(--bs-dropdown-link-disabled-color);pointer-events:none;background-color:transparent}
+.dropdown-menu.show{display:block}.dropdown-header{display:block;padding:var(--bs-dropdown-header-padding-y) var(--bs-dropdown-header-padding-x);margin-bottom:0;
+font-size:.875rem;color:var(--bs-dropdown-header-color);white-space:nowrap}
+.dropdown-item-text{display:block;padding:var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);color:var(--bs-dropdown-link-color)}
+

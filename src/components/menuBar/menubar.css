@@ -1,0 +1,37 @@
+.css-1wtssb0-MuiPaper-root-MuiAppBar-root{
+    position: relative;
+}
+
+/* Cambiar el cursor cuando el usuario pasa sobre la barra de desplazamiento en WebKit browsers */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+  
+  /* Cambiar el cursor a pointer cuando se pasa sobre la barra de desplazamiento */
+  ::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+  }
+  
+  /* Firefox */
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+  }
+  
+  /* Cambiar cursor a pointer en el área de scroll en Firefox */
+  html::-moz-scrollbar-thumb {
+    cursor: pointer;
+  }
+  
+ 
+  

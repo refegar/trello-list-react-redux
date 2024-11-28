@@ -1,0 +1,180 @@
+@import  './vendor/css/bootstrap.min.css'; /* hoja de estilo de bootstrap */
+
+body {
+    background-image: url('img/fondo/banner-01.jpg');
+    height: 100vh;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size:cover; /* Escala la imagen para cubrir todo el área */
+    background-position: center; /* Centra la imagen */
+    object-fit: cover;
+  
+}
+
+:root {
+    --dark-green: #006400; /* Define la variable de color verde oscuro */
+    --ocre-sushi:#ee6141;
+    --color-negro:#000000;
+}
+
+.text-dark-green {
+    color: var(--dark-green); /* Usa la variable */
+    font-weight:900;
+}
+.color-shabu-suchi{
+    color: var(--ocre-sushi);
+    font-weight: bolder;
+}
+.color-negro{
+    color: var(--color-negro);
+}
+
+body{
+    font-size: 1.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+}
+header{
+
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+.img-cover {
+    object-fit: cover; /* Ajusta la imagen para que cubra el contenedor */
+ 
+}
+.containerAddCart{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+    border: 1px solid #b3b1b1;
+    box-shadow:0px 0px 5px 0px#bdb9b9;
+    border-radius: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+.buttonBrowseDish{
+    display: flex;
+    justify-content: center;
+}
+.spaceAddCart{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.modelAddCart{
+   display: block;
+   width: 100%;
+
+}
+
+.modal {
+    --bs-modal-width: 900px;
+    --bs-modal-padding: 1rem;
+    --bs-modal-margin: 6.5rem;
+    --bs-modal-color: ;
+    --bs-modal-bg: #fff;
+    --bs-modal-border-color: var(--bs-border-color-translucent);
+    --bs-modal-border-width: 1px;
+    --bs-modal-border-radius: 0.5rem;
+    --bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    --bs-modal-inner-border-radius: calc(0.5rem - 1px);
+    --bs-modal-header-padding-x: 1rem;
+    --bs-modal-header-padding-y: 1rem;
+    --bs-modal-header-padding: 1rem 1rem;
+    --bs-modal-header-border-color: var(--bs-border-color);
+    --bs-modal-header-border-width: 1px;
+    --bs-modal-title-line-height: 1.5;
+    --bs-modal-footer-gap: 0.5rem;
+    --bs-modal-footer-bg: ;
+    --bs-modal-footer-border-color: var(--bs-border-color);
+    --bs-modal-footer-border-width: 1px;
+  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 100%;
+    overflow-y: hidden; /* Para permitir scroll dentro del modal si es necesario */
+    padding: 1rem;
+   
+  }
+
+  .modal-backdrop {
+    --bs-backdrop-zindex: 1;
+    --bs-backdrop-bg: #f1ebdf;
+    --bs-backdrop-opacity: 1;
+
+
+    width: 80vw;
+    height: 100vh;
+    background-color: var(--bs-backdrop-bg);
+  }
+  .carritoCompras{
+    display: flex;
+    justify-content: space-between;
+  }
+  .carritoCompras svg:hover{
+color: #ee6141;
+cursor: pointer;
+  }
+  .containerDetalles
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 25px;
+}
+.containerDetalles img
+{
+    border-radius: 20px;
+}
+.itemsDescripcion{
+    display: flex;
+    justify-content: center;
+   
+}
+.buttonBorrarCart{
+    background-color: #ee6141;
+    color: #fff;
+    border: 2px solid #ee6141;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    width: 50px;
+    margin: 20px;
+}
+.buttonBorrarCart:hover{
+    background-color: #ffa475;
+    color: #000000;
+    font-size: 19px;
+    border: 2px solid #ffa475;
+    
+}
+.buttonCompletarCompra{
+    background-color: #ee6141;
+    color: #fff;
+    border: 1px solid #ee6141;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    width: 280px;
+    margin: 20px;
+}
+.buttonCompletarCompra:hover{
+    background-color: #ffa475;
+    color: #000000;
+    border: 1px solid #ffa475;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.containerCompras{
+    margin-top: 10%;
+    text-align: center;
+}
